@@ -1,0 +1,4 @@
+type UserResult{
+    user: User
+    error: Error
+}

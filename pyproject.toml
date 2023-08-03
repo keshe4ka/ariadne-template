@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ariadne-template"
+version = "0.1.0"
+description = ""
+authors = ["keshe4ka <a.anaschenko@btc-s.ru>"]
+readme = "README.md"
+packages = [{include = "ariadne_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic-settings = "^2.0.2"
+pydantic = "^2.1.1"
+ariadne = "^0.20.1"
+sqlalchemy = "^2.0.19"
+alembic = "^1.11.1"
+minio = "^7.1.15"
+python-dateutil = "^2.8.2"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

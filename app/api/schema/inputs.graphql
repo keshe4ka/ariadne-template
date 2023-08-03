@@ -1,0 +1,5 @@
+input BaseFilter{
+    searchString: String = null
+    limit: Int = 10
+    offset: Int = 0
+}

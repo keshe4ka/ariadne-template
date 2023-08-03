@@ -1,0 +1,13 @@
+scalar Upload
+scalar Datetime
+scalar Date
+
+type Error{
+    code: Int!
+    message: String
+}
+
+type User{
+    id: Int!
+}
+
